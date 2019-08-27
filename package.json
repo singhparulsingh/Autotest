@@ -1,0 +1,22 @@
+{
+  "name": "nodetest",
+  "version": "1.0.0",
+  "description": "testing node on aws",
+  "main": "openNavigate.js",
+  "dependencies": {
+    "chrome-launcher": "^0.11.1",
+    "mocha-allure-reporter": "^1.4.0",
+    "screenfull": "^4.2.1",
+    "selenium-webdriver": "^4.0.0-alpha.4"
+  },
+  "devDependencies": {
+    "chromedriver": "^75.1.0",
+    "selenium-standalone": "^6.16.0",
+    "mocha": "^2.2.5"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "me",
+  "license": "ISC"
+}
